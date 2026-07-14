@@ -15,14 +15,14 @@ By the end of this lesson, the student will be able to:
 ### Step 1: Using the Workspace
 
 <video
-  src="video/00-Workspace-Overview.mp4"
+  src="video/L01/00-Workspace-Overview.mp4"
   controls
   playsinline
   preload="metadata"
   width="100%"
   style="max-width: 900px; height: auto; border-radius: 8px;">
 Your browser does not support the video tag.
-<a href="video/00-Workspace-Overview.mp4">Download the video</a>.
+<a href="video/L01/00-Workspace-Overview.mp4">Download the video</a>.
 </video>
 
 ### Step 1: The Always-On Loop
@@ -34,17 +34,6 @@ Your browser does not support the video tag.
   3. Connect the Black (Negative) wire to Terminal 2.
   4. Click "Start Simulation" to observe the light.
 
-<video
-  src="video/01-9V-to-Light-Bulb.mp4"
-  controls
-  playsinline
-  preload="metadata"
-  width="100%"
-  style="max-width: 900px; height: auto; border-radius: 8px;">
-Your browser does not support the video tag.
-<a href="video/01-9V-to-Light-Bulb.mp4">Download the video</a>.
-</video>
-
 ### Step 2: Breaking the Path
 
 - **Concept**: If the loop is broken, the circuit is "Open," and electricity cannot flow.
@@ -53,14 +42,14 @@ Your browser does not support the video tag.
   2. Click "Start Simulation" and observe that the light remains off.
 
 <video
-  src="video/02-9V-Cut-RedWire-to-Light-Bulb.mp4"
+  src="video/L01/01-9V-to-Light-Bulb-Open-and-Close-Circuit.mp4"
   controls
   playsinline
   preload="metadata"
   width="100%"
   style="max-width: 900px; height: auto; border-radius: 8px;">
 Your browser does not support the video tag.
-<a href="video/02-9V-Cut-RedWire-to-Light-Bulb.mp4">Download the video</a>.
+<a href="video/L01/01-9V-to-Light-Bulb-Open-and-Close-Circuit.mp4">Download the video</a>.
 </video>
 
 ### Step 3: The "Magic Bridge" (Push Button)
@@ -74,14 +63,14 @@ Your browser does not support the video tag.
   3. Push the button during the simulation to "close" the circuit and light the bulb.
 
 <video
-  src="video/03-9V-to-PushButton-to-LightBulb.mp4"
+  src="video/L01/02-Pushbutton-Circuit-w-Diagram.mp4"
   controls
   playsinline
   preload="metadata"
   width="100%"
   style="max-width: 900px; height: auto; border-radius: 8px;">
 Your browser does not support the video tag.
-<a href="video/03-9V-to-PushButton-to-LightBulb.mp4">Download the video</a>.
+<a href="video/L01/02-Pushbutton-Circuit-w-Diagram.mp4">Download the video</a>.
 </video>
 
 ---
