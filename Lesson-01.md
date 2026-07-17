@@ -12,7 +12,7 @@ By the end of this lesson, the student will be able to:
 
 ## Lesson Content
 
-### Step 1: Using the Workspace
+### Step 0: Using the Workspace
 
 <video
   src="video/L01/00-Workspace-Overview.mp4"

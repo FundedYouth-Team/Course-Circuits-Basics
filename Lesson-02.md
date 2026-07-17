@@ -35,14 +35,37 @@ By the end of this lesson, the student will be able to:
   4.  Click "Start Simulation."
 - **Observation**: An explosion icon appears above the LED, indicating it has "popped" and broken.
 
+<video
+  src="video/L02/01-Overview-and-Step-1-The-Pop.mp4"
+  controls
+  playsinline
+  preload="metadata"
+  width="100%"
+  style="max-width: 900px; height: auto; border-radius: 8px;">
+Your browser does not support the video tag.
+<a href="video/L02/01-Overview-and-Step-1-The-Pop.mp4">Download the video</a>.
+</video>
+
 ### Step 2: Introducing the Resistor (The Gatekeeper)
 
 - **Concept**: A resistor creates resistance, which slows down the flow of electricity (Current). It acts as a gatekeeper for the sensitive LED.
 - **Activity**:
-  1.  Delete the broken LED and replace it with a new one.
-  2.  Add a Resistor. Connect it in-line between the battery's positive terminal and the LED's Anode.
-  3.  Click "Start Simulation."
-- **Observation**: The LED turns on safely and stays lit.
+  1. Click "Stop Simulation."
+  2. Add a Resistor to your workspace.
+  3. Connect it in-line between the battery's positive terminal and the LED's Anode.
+  4. Click "Start Simulation" again.
+- **Observation**: The LED now turns on safely and stays lit!
+
+<video
+  src="video/L02/02-Step-2-Add-A-Resistor.mp4"
+  controls
+  playsinline
+  preload="metadata"
+  width="100%"
+  style="max-width: 900px; height: auto; border-radius: 8px;">
+Your browser does not support the video tag.
+<a href="video/L02/02-Step-2-Add-A-Resistor.mp4">Download the video</a>.
+</video>
 
 ### Step 3: Tinkering with Brightness
 
@@ -52,18 +75,29 @@ By the end of this lesson, the student will be able to:
   2.  Stop the simulation and change the resistor value to **10,000Ω (10k)**. Click "Start Simulation." (The LED is very dim).
 - **Conclusion**: The higher the number of Ohms, the more the resistor blocks the flow, and the dimmer the LED becomes.
 
+<video
+  src="video/L02/03-Step-3-Changing-The-Brightness.mp4"
+  controls
+  playsinline
+  preload="metadata"
+  width="100%"
+  style="max-width: 900px; height: auto; border-radius: 8px;">
+Your browser does not support the video tag.
+<a href="video/L02/03-Step-3-Changing-The-Brightness.mp4">Download the video</a>.
+</video>
+
 ### Step 4: Decoding the "Shorthand" (The Letter Code)
 
 - **Concept**: Scientists use letters to avoid writing too many zeros. These are like math "shortcuts."
   - **k** = Kilo (Thousands). **1k&Omega;** is **1,000 &Omega;**.
   - **m** = Milli (Thousandths). **1m&Omega;** is **0.001 &Omega;** (A very, very tiny resistor!).
-  - **u** = Micro (Millionths). **1&mu;&Omega;** is **0.000001 &Omega;** (Even smaller!).
+  - **&mu;** = Micro (Millionths). **1&mu;&Omega;** is **0.000001 &Omega;** (Even smaller!).
 - **Activity**: Look at the dropdown menu in Tinkercad.
   - If you see **M&Omega;** (Mega), that is a **Million**. That pipe is so tight that almost no electricity can get through!
   - If you see **m&Omega;** (milli) or **u&Omega;** (micro), those are decimals like **0.001** or **0.000001**.
 - **The Rule**:
   - **Bigger letters (M, G, k)** = More resistance (The pipe is getting tighter).
-  - **Little letters (m, u, n, p)** = Less resistance (The pipe is getting wider).
+  - **Little letters (m, &mu;, n, p)** = Less resistance (The pipe is getting wider).
 
 | Prefix   | Name  | Symbol      | Value (&Omega;)        |
 | :------- | :---- | :---------- | :--------------------- |
