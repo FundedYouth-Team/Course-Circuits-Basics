@@ -4,12 +4,13 @@
 
 Before we start, let's look at a new way to think about electricity. Imagine electricity is water flowing through a pipe.
 
-- **Low Resistance:** If the pipe is wide and open, the water flows fast and easily.
-- **High Resistance:** If you squeeze the pipe and make it narrow, it is much harder for the water to get through.
+- **Resistor as a Pipe Sizer:** Instead of a "kink," think of a resistor as a pipe sizer. By changing the diameter of the entire pipe, it forces the water (current) to flow at a safe, steady speed all the way around the loop.
+- **Wider Pipe (Low Resistance):** The water flows fast and easily.
+- **Narrower Pipe (High Resistance):** It is harder for the water to get through, slowing down the flow for the entire circuit.
 
-A **Resistor** is designed to "squeeze the pipe." It creates resistance, which slows down the flow of electricity.
+![A closed LED circuit without Resistor](images/L02/Circuit-without-Resistor.png)
 
-![Water Pipe Analogy](images/L02/01-Water-Tube-with-Resistance.png)
+![A closed LED circuit with Resistor](images/L02/Circuit-with-Resistor.png)
 
 ---
 
@@ -48,7 +49,7 @@ Your browser does not support the video tag.
 
 ### Step 2: Introducing the Resistor (The Gatekeeper)
 
-- **Concept**: A resistor creates resistance, which slows down the flow of electricity (Current). It acts as a gatekeeper for the sensitive LED.
+- **Concept**: A resistor acts as a pipe sizer, changing the diameter of the path to slow down the flow of electricity (Current). It acts as a gatekeeper for the sensitive LED.
 - **Activity**:
   1. Click "Stop Simulation."
   2. Add a Resistor to your workspace.
@@ -73,7 +74,7 @@ Your browser does not support the video tag.
 - **Activity**:
   1.  Click on the resistor and change its value to **100 Ω**. Click "Start Simulation." (The LED is very bright).
   2.  Stop the simulation and change the resistor value to **10,000Ω (10k)**. Click "Start Simulation." (The LED is very dim).
-- **Conclusion**: The higher the number of Ohms, the more the resistor blocks the flow, and the dimmer the LED becomes.
+- **Conclusion**: The higher the number of Ohms, the more the resistor restricts the flow (making the pipe narrower), and the dimmer the LED becomes.
 
 <video
   src="video/L02/03-Step-3-Changing-The-Brightness.mp4"
@@ -90,11 +91,10 @@ Your browser does not support the video tag.
 
 - **Concept**: Scientists use letters to avoid writing too many zeros. These are like math "shortcuts."
   - **k** = Kilo (Thousands). **1k&Omega;** is **1,000 &Omega;**.
-  - **m** = Milli (Thousandths). **1m&Omega;** is **0.001 &Omega;** (A very, very tiny resistor!).
-  - **&mu;** = Micro (Millionths). **1&mu;&Omega;** is **0.000001 &Omega;** (Even smaller!).
+  - **m** = Milli (Thousandths). **1m&Omega;** is **0.001 &Omega;**.
+  - **&mu;** = Micro (Millionths). **1&mu;&Omega;** is **0.000001 &Omega;**.
 - **Activity**: Look at the dropdown menu in Tinkercad.
   - If you see **M&Omega;** (Mega), that is a **Million**. That pipe is so tight that almost no electricity can get through!
-  - If you see **m&Omega;** (milli) or **u&Omega;** (micro), those are decimals like **0.001** or **0.000001**.
 - **The Rule**:
   - **Bigger letters (M, G, k)** = More resistance (The pipe is getting tighter).
   - **Little letters (m, &mu;, n, p)** = Less resistance (The pipe is getting wider).
@@ -109,10 +109,3 @@ Your browser does not support the video tag.
 | **&mu;** | micro | &mu;&Omega; | 0.000001 &Omega;       |
 | **n**    | nano  | n&Omega;    | 0.000000001 &Omega;    |
 | **p**    | pico  | p&Omega;    | 0.000000000001 &Omega; |
-
----
-
-## Tips for Success
-
-- **The Magic Number**: When using a 9V battery and a standard LED, a **220-Ohm Resistor** is a safe and bright starting point.
-- **Let Them Break It**: Seeing the "explosion" icon in Tinkercad is a powerful lesson. Encourage them to predict failure!
