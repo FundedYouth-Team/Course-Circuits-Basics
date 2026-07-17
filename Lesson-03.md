@@ -122,11 +122,26 @@ Your browser does not support the video tag.
 
 ![Ohm's Law Finding the Resistance](images/L03/ohms-law-resistance.png)
 
-- **Putting it into practice**:
-  1. **Identify the "Toll"**: We have 4 LEDs in series. Each takes 2V. 4 × 2V = 8V total.
-  2. **Find the Leftover**: Our battery is 9V. 9V - 8V = 1V leftover.
-  3. **The Current**: We know our LEDs need 20mA, which we convert to 0.020A.
-  4. **The Math**: 1 ÷ 0.020 = 50.
-  5. **The Result**: You need a 50Ω resistor to perfectly manage the flow for those 4 LEDs!
+- **Experiment 1: The Single LED Test**
+  1. Build a circuit with a 9V battery, a 1kΩ resistor, and 1 LED.
+  2. Before you close the circuit to the ground, insert a **Multimeter** at the end.
+  3. Set the Multimeter to **Amperage (A)** mode.
+  4. **The Math**: We want 0.020A. With a 9V battery and a 2V LED, we have 7V left to soak up.
+     Calculation: 7V ÷ 0.020A = 350Ω.
+  5. Change your 1kΩ resistor to 350Ω. Your Multimeter should now read right around 20mA!
 
-- **Scientist Challenge**: What happens if you use a 100Ω resistor instead of a 50Ω resistor? Use your math skills: Does the flow (Amps) get bigger or smaller? Then, test it in the simulator to see if you were right!
+- **Experiment 2: The 4 LED Series Chain**
+  1. Clear your breadboard. Connect your 9V battery to a string of 4 LEDs in series (use jumper wires to connect the "negative" leg of one LED to the "positive" leg of the next).
+  2. Add the Multimeter after the 4th LED, then connect the other side of the Multimeter to the battery's Ground.
+  3. **The Math**: Each LED takes 2V, so 4 LEDs = 8V. Leftover: 9V - 8V = 1V.
+     Calculation: 1V ÷ 0.020A = 50Ω.
+  4. Place a 50Ω resistor between the Power (Positive) and the first LED.
+  5. Run the simulator. Your Multimeter should read 20mA!
+
+- **Quick Recap**:
+  - **Look it up**: Always check your device's "Goldilocks" flow (20mA for LEDs).
+  - **Jump the Decimal**: Use the "Three-Jump Rule" to turn 20mA into 0.020A.
+  - **Find the Toll**: Subtract the LED voltage "tolls" from the battery voltage to find the leftover voltage the resistor needs to soak up.
+  - **Calculate**: Use the equation (Leftover Voltage ÷ 0.020) to find your perfect resistor value.
+
+- **Scientist Challenge**: If you had a 9V battery and you wanted to light up **two** LEDs (each taking 2V), how much voltage does the resistor need to soak up? Calculate the resistor value needed, build it, and check your work with the Multimeter!
