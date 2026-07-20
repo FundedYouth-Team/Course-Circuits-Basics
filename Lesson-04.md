@@ -61,7 +61,7 @@ Your browser does not support the video tag.
 
 ### Step 4: Simulator Safety and Component Verification
 
-- **Concept**: Tinkercad is a "Simulated World." If you push too much power, you might see an exclamation mark (i) warning you that a part is stressed, but it will not "pop" like a real LED would. Real-world engineering requires more caution.
+- **Concept**: Tinkercad is a "pretend world" on the computer. It is a safe place to test your ideas. If you give a part a little too much current, a small info sign (ℹ️) pops up to tell you the part is getting stressed. If you give it _way_ too much, some parts will show a pop or explosion sign (💥) to show they would break. But don't worry — nothing really breaks in the pretend world! In the real world, a part like an LED can truly pop and stop working forever. That is why real engineers are extra careful.
 
 - **Activity 1: The Simulator "Stress Test"**
   1. **Setup**: Place a **Power Supply** and a **Green LED** on the workspace.
@@ -71,11 +71,8 @@ Your browser does not support the video tag.
      - Connect the **Red (positive)** wire from the Power Supply directly to the **Anode (positive leg)** of the LED.
      - Connect the **Black (negative)** wire from the Power Supply directly to the **Cathode (negative leg)** of the LED.
 
-<img src="images/L04/PowerSupply-Testing-GreenLED-PeakBrightness-Voltage.png" alt="" />
+<img style="width: 500px;" src="images/L04/PowerSupply-Testing-GreenLED-InitialSetup.png" alt="" />
 
 4. **Discovery**: Slowly increase the voltage on the Power Supply until the LED reaches its ideal brightness. Observe the **Amperage** readout directly on the Power Supply display and record the exact voltage and amperage in your Engineer's Notebook.
 
-- **Activity 2: The Real-World Check**
-  1. **Setup**: Use your physical **Digital Multimeter**, a **Green LED**, and a **Battery Pack**.
-  2. **Configuration**: Turn your dial to the **DC Voltage (V)** setting to measure the battery, or the **DC Amperage (A)** setting to measure the LED's current draw.
-  3. **Discovery**: Compare the real-world performance of your physical component against the numbers you gathered in the simulator. Do you notice any differences in how the light behaves or how the numbers fluctuate?
+<img src="images/L04/PowerSupply-Testing-GreenLED-PeakBrightness-Voltage.png" alt="" />
