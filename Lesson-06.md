@@ -72,14 +72,14 @@ Your browser does not support the video tag.
   6. **Test**: Start the simulation and turn the knob to see the color brighten and dim safely!
 
 <video
-  src="video/L06/L06-Activity-2-RGB-LED.mp4"
+  src="video/L06/L06-Activity-2-RGB-LED-Potentiometer.mp4"
   controls
   playsinline
   preload="metadata"
   width="100%"
   style="max-width: 900px; height: auto; border-radius: 8px;">
 Your browser does not support the video tag.
-<a href="video/L06/L06-Activity-2-RGB-LED.mp4">Download the video</a>.
+<a href="video/L06/L06-Activity-2-RGB-LED-Potentiometer.mp4">Download the video</a>.
 </video>
 
 ---
@@ -87,9 +87,38 @@ Your browser does not support the video tag.
 ### Activity 3: The "Rainbow Mixer"
 
 - **Objective**: Expand your circuit to control all three colors (Red, Green, and Blue) to create custom colors.
+
 - **Activity**:
   1. **Expand**: Add the remaining two potentiometers and two resistors to your breadboard.
   2. **Wire**: Repeat the wiring steps from Activity 2 for the remaining two color pins on your RGB LED.
   3. **Explore**: Now that you have all three colors under your control, move the knobs to different positions.
   4. **The Challenge**: Can you create the color purple? How about yellow or teal? Turn the knobs to find these colors and discover the full spectrum!
   5. **Discovery**: What happens when all three knobs are turned to their maximum brightness? Does the light look white?
+
+<video
+  src="video/L06/L06-Activity-03-Parallel-Circuit-Potentiomete.mp4"
+  controls
+  playsinline
+  preload="metadata"
+  width="100%"
+  style="max-width: 900px; height: auto; border-radius: 8px;">
+Your browser does not support the video tag.
+<a href="video/L06/L06-Activity-03-Parallel-Circuit-Potentiomete.mp4">Download the video</a>.
+</video>
+
+---
+
+### Why Don't Three Resistors Add Up to 1.2kΩ?
+
+<img src="images/L06/Series-vs-Parallel-Circuit.png" alt="series circuit versus parallel circuit" />
+
+A clever question you might ask when looking at this circuit is: _"If we have three 400Ω resistors, does that add them all together to make 1.2kΩ?"_
+
+The answer is **no**, because of how the electricity flows and whether the circuit is wired in series or in parallel!
+
+- **Series vs. Parallel Circuits**:
+  - In a **series circuit**, components are connected along a single path, one after another, so the current must flow through every component sequentially.
+  - In a **parallel circuit**, the electricity leaves the battery and splits into multiple independent branches or paths, allowing the current to flow through each component separately before merging back together.
+- **The Water Pipe Analogy (Series)**: If you put three narrow pipe sections _in a row_ in a single path (like a series circuit), the water has to squeeze through three tight spots back-to-back, causing the resistance to add up.
+- **The Splitting River (Parallel)**: In this parallel circuit, electricity leaves the battery and splits into **three separate, independent paths** (one for Red, one for Green, and one for Blue).
+- **No Pile-Up**: The electricity flowing down the Red path only goes through the Red resistor. It never squeezes through the Green or Blue resistors. Because these paths run side-by-side instead of back-to-back, each individual color handles its own safety limit independently without multiplying the resistance together!
